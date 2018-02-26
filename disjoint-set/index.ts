@@ -1,5 +1,10 @@
+type Node = {
+  parent: Node,
+  value: string
+}
+
 export default class DisjointSet {
-  private nodes: any[];
+  nodes: Array<Node>;
 
   constructor() {
     this.nodes = [];

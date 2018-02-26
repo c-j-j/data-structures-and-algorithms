@@ -1,4 +1,4 @@
-const DisjointSet = require("./index");
+import DisjointSet from "./index";
 
 const set = new DisjointSet();
 set.makeSet(1);
