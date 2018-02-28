@@ -1,9 +1,9 @@
 Graphs to Implement
 
-- [] Topological Sort
+- [ ] Topological Sort
 - [X] Detect cycle
 - [X] Kruskal's Algorithm
 
 Dynamic Programming Algorithms
 
-- [] Knapsack 0/1 algorithm
+- [ ] Knapsack 0/1 algorithm
