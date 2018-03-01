@@ -1,6 +1,6 @@
 Graphs to Implement
 
-- [ ] Topological Sort
+- [X] Topological Sort
 - [X] Detect cycle
 - [X] Kruskal's Algorithm
 
