@@ -5,7 +5,7 @@ type Edge = {
   to: string;
 };
 
-export default class WeightedGraph {
+export default class DirectedGraph {
   private edges: Edge[];
 
   constructor() {

@@ -10,15 +10,15 @@ function dfs(
   const item = toVisit.shift();
   visiting.push(item);
 
-  for (let next of graph.getNextVertices(item)) {
-    if (!visited.includes(next)) {
-      if (visiting.includes(next)) {
-        return true;
-      }
+  for (let next of graph
+    .getNextVertices(item)
+    .filter(v => !visited.includes(v))) {
+    if (visiting.includes(next)) {
+      return true;
+    }
 
-      if (dfs(next, toVisit, visiting, visited, graph)) {
-        return true;
-      }
+    if (dfs(next, toVisit, visiting, visited, graph)) {
+      return true;
     }
   }
 
